@@ -71,4 +71,11 @@ Reveal.initialize({
   // - Set to 0 to disable movement along an axis
   parallaxBackgroundHorizontal: null,
   parallaxBackgroundVertical: null
-})
+});
+
+Reveal.configure({
+  keyboard: {
+    40: 'next',
+    38: 'prev'
+  }
+});
