@@ -48,11 +48,13 @@ body {
   color: #000; }
 
 body:after {
-  content: url(img/e3logo.png);
+  content: url("https://raw.githubusercontent.com/alessandrocucci/reveal-cleaver-theme/master/img/e3logo.png");
   position: fixed;
-  bottom: 3.5em;
-  left: 3.5em;
-  box-shadow: 5px 5px 10px #000; }
+  bottom: 5em;
+  right: 5em;
+  zoom: 0.1;
+  -moz-transform: scale(0.1);
+}
 
 /*********************************************
  * VIEW FRAGMENTS
